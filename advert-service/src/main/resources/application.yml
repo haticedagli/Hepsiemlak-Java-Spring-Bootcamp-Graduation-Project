@@ -1,0 +1,10 @@
+elasticsearch:
+  host: "localhost"
+  port: 9200
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+server:
+  port: 8083

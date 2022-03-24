@@ -1,0 +1,23 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      authentication-database: admin
+      username: admin
+      password: password
+      database: notification
+      port: 27017
+      host: localhost
+server:
+  port: 8084
+
+mail:
+  host: smtp.gmail.com
+  port: 587
+  username: haticeetoglu03@gmail.com
+  password: 10280300486
+  from: haticeetoglu03@gmail.com
+
+notification:
+  queue: "hepsiemlak.notification"

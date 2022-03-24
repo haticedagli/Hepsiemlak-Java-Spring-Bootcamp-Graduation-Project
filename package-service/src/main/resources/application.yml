@@ -1,0 +1,28 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      authentication-database: admin
+      username: admin
+      password: password
+      database: package
+      port: 27017
+      host: localhost
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        acknowledge-mode: AUTO
+        retry:
+          enabled: true
+          max-attempts: 3
+        default-requeue-rejected: false
+        concurrency: 3
+        max-concurrency: 3
+        prefetch: 10
+server:
+  port: 8082

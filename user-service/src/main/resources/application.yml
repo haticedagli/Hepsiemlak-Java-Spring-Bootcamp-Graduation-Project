@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: user-service
+  datasource:
+    username: postgres
+    password: hatice1234
+    url: jdbc:postgresql://localhost:5432/postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9000
+mq:
+  producer:
+    user:
+      exchange: user.service.events
+      queueName: userQueue
