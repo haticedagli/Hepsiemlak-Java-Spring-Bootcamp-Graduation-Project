@@ -66,3 +66,5 @@ User         -> http://localhost:9000/swagger-ui.html
 <img width="1792" alt="rabbitmq" src="https://user-images.githubusercontent.com/62377943/159827337-8c6e40f9-3fa3-4d98-b483-9269e9724a9d.png">
 <img width="944" alt="elasticsearch" src="https://user-images.githubusercontent.com/62377943/159827343-3abeb88d-2043-49d1-b4fd-54917f795114.png">
 
+
+Application is running on local machine proof -> https://github.com/haticedagli/Hepsiemlak-Java-Spring-Bootcamp-Graduation-Project/tree/main/apps-running-ss
